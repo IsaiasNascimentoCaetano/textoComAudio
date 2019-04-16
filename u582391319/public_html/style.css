@@ -1,0 +1,764 @@
+*{
+	
+	margin: 0px;
+	padding: 0px;	
+}
+body{
+		
+	background-color: #DCDCDC;
+	padding-bottom: 20px;
+	
+}
+p + p {
+  
+  text-indent: 1.6em;
+  margin-top: 0 
+  
+}
+#userBar{
+	
+	background-color: #363640;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	height: 50px;
+	border-radius: 2px;
+	
+}
+#barList a{
+	
+	list-style: none;
+	text-decoration: none;
+	color: white;
+	
+}
+#userBar li:hover{
+	
+	border-radius: 3px;
+	border: 3px, solid,#ffffff;
+	background: #111101;
+	
+}
+#userBar ul li{
+	
+	display: inline;
+	
+}
+#logo{
+	
+	opacity: 0.7;
+	
+}
+.options{
+	
+	position: relative;
+	float: right;
+	top: 13px;
+	font-family: "Arial",Times, serif;
+	font-size: 20px;
+		
+}
+#profile{
+	
+	right: 100px;
+	
+}
+#new{
+	
+	right: 80px;
+	
+}
+#sugestion{
+	
+	right: 53px;
+}
+#loginLogoutButton{
+	
+	right: 30px;
+	
+}
+#userStoriePage{
+
+	right: 65px;
+
+}
+#content{	
+	
+	position: relative;
+	top: 70px;	
+	height: 90%;
+	width: auto;
+	background-color: white;
+	left: 8%;
+	width: 85%;
+	border-radius: 10px;
+	padding-bottom: auto;
+				
+}
+.title{
+	
+	position: relative;
+	left: 30px;
+	top: 20px;
+	padding-bottom: 30px;
+	font-family: Florence, cursive;
+	color: #363636;
+	font-size: 49px;	
+
+}
+.news{
+		
+	position: relative;
+	float: left;
+	top: 30px;
+	height: auto;
+	padding-bottom: 10px;
+	padding-bottom: 20px;
+	width: 50%;
+		
+}
+.news:hover{
+	
+	border-radius: 5px;
+	background-color: rgba(0,139,139,0.3);
+		
+}
+.textTitle{
+	
+	position: relative;
+	top: 30px;
+	left: 60px;
+			
+}
+.textTitle a{
+	
+	font-family:Coronetscript, cursive;
+	font-weight: bold;
+	font-size: 24px;
+	text-decoration: none;
+	color: #00868B;
+	
+		
+}
+.sinopseImage{
+	
+	position: relative;
+	left: 60px;
+	top: 40px;
+	width: 250px;
+	height: 180px;
+	border-radius: 2px;
+	
+}
+.genre{
+	
+	position: relative;
+	font-size: 18px;
+	font-family:Coronetscript, cursive;
+	color: #1C1C1C;
+	top:40px;
+	left: 33px;
+	padding-top: 4px;
+	
+}
+.genre a{
+	
+	text-decoration: none;
+	color: #1C1C1C;
+	
+}
+.sinopse{
+	
+	position: relative;
+	font-family: Arial,Helvetica,sans-serif;
+	color: #595959;
+	top:40px;
+	padding-top: 4px;
+	left: 60px;
+	width: 80%;
+	
+}
+.sinopse a{
+	
+	text-decoration: none;
+	font-family:Coronetscript, cursive;
+	font-size: 18px;
+	color: #1C1C1C;
+	
+}
+.author{
+		
+	position: relative;
+	padding-top: 40px;	
+	font-family:Coronetscript, cursive;
+	font-size: 18px;
+	left: 33px;
+	color: #1C1C1C;
+	
+}
+.author a{
+		
+	text-decoration: none;
+	color: #00868B;
+	
+}
+.date{
+	
+	position: relative;
+	font-family:Coronetscript, cursive;
+	font-size: 18px;
+	color: #1C1C1C;
+	left: 33px;
+	
+}
+.note{
+	
+	position: relative;
+	padding-bottom: 5px;
+	font-family:Coronetscript, cursive;
+	font-size: 18px;
+	color: #1C1C1C;
+	left: 33px;
+	
+}
+.form{
+	
+	position: relative;
+	padding-left: 30px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	width: 50%;
+		
+}
+.form input,textarea{
+	
+	width: 90%;
+	padding: 8px;
+	border-radius: 2px;
+	margin: 5px;	
+	font-size: 14px;
+	resize: none;
+	
+}
+.form input[type = submit]{
+	
+	border: none;
+	background-color: #00868B;
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 16px; 
+	width: 93%;
+	
+}
+.form input[type = file]{
+	
+	position: relative;
+	left: -1%;
+	
+}
+#labelImage{
+	
+	position: relative;
+	left: 5px;
+	font-family: Florence, cursive;
+	color: #363636;
+	font-size: 14px;
+	font-weight: bold;
+	
+}
+.another{
+	
+	clear: both;
+	
+}
+.bord{
+	
+	
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-top-color: #363640;
+	
+}
+.bord2{
+	
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #363640;
+	
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #363640;
+	
+}
+.bord3{
+	
+	border-bottom-width: 1px;
+	border-bottom-style: solid;	
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-bottom-color: #363640;
+		
+}
+#userProfile{
+		
+	height: auto;
+	padding-left: 60px;
+	padding-top: 60px;
+	width: 100%;
+	
+}
+#userProfile a{
+	
+	text-decoration: none;
+	font-size: 15px;
+	
+}
+#userProfileImage{
+			
+	
+	width: 170px;
+	height: 170px;
+	border-width: 3px;
+	border-style: solid;
+	border-radius: 10px;
+	border-color: #363640;
+	
+}
+#userProfileName{
+		
+	position: relative;	
+	display: inline;
+	font-family: Florence, cursive;
+	color: #363636;
+	font-size: 25px;
+	padding-left: 30px;
+	top: -124px;
+		
+}
+#userProfileAge{
+		
+	position: relative;
+	display: list-item;		
+	list-style: none;
+	font-family: Florence, cursive;
+	color: #363636;
+	font-size: 25px;
+	padding-left: 165px;
+	top: -120px;
+	
+}
+#userProfileEmail{
+	
+	position: relative;		
+	list-style: none;
+	font-family: Florence, cursive;
+	color: #363636;
+	font-size: 25px;
+	padding-left: 165px;
+	padding-top: 5px;
+	top: -120px;
+	
+}
+#userAbout{
+	
+	position: relative;
+	top: -50px;
+	padding-left: 25px;
+	
+}
+
+.aboutTitle{
+	
+	position: relative;
+	
+}
+#about{
+	
+	position: relative;
+	left: 36px;
+	top: 30px;
+	padding-bottom: 1px;
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 16px;
+	color: #595959;
+	height: auto;
+	width: 50%;
+		
+}
+#userStories{
+
+	position: relative;
+	height: auto;
+	padding-bottom: 10px;
+	
+}
+.userStoriesTitle{
+	
+	position: relative;
+	left:60px;
+	
+}
+#back{
+	
+	clear: both;
+	position: relative;
+	top:60px;
+	width: 100%;
+	text-align: center;
+	text-decoration: none;
+	padding-bottom: 50px;
+	
+}
+#back a{
+	
+	text-decoration: none;
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 16px;
+	color: #595959;
+	
+}
+.titleCreateStorie{
+	
+	width: 100%;
+	text-align: center;
+	height: auto;
+		
+}
+.formCreateStorie{
+	
+	float: left;
+	left: 40px;
+	top:40px;
+	margin-bottom: 40px;
+	
+}
+.formCreateStorie h4{
+	
+	position: relative;
+	font-size: 20px;
+	color: #595959;
+	left:4px;
+	
+}
+.formCreateStorie select{
+	
+	position: relative;
+	left:4px;
+	padding: 4px;
+	font-size: 16px;
+	width: 42%;	
+
+}
+.formCreateStorie input[type=submit]{
+	
+	position: relative;
+	top: 10px;
+	
+}
+#storieRules{
+	
+	position: relative;
+	float: left;
+	top: 100px;
+	left: 70px;
+	width: 37%;
+	border-width: 1px;
+	border-style: solid;
+	border-radius: 10px;
+	border-color: #8B8682;
+		
+}
+#storieRules h3{
+		
+	color: #595959;	
+	font-family:Coronetscript, cursive;
+	padding-left: 4px;
+	padding-top: 6px;	
+	
+}
+#storieRules p{
+		
+	padding:5px;	
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 16px;
+	color: #595959;
+	
+}
+#titleUserStoriesPage{
+	
+	text-align: center;
+	width: 100%;
+	font-family: Florence, cursive;
+	color: #363636;
+	font-size: 49px;
+	padding-top: 10px;
+	
+}
+.listUserStories{
+	
+	float: left;
+	margin-top: 20px;
+	margin-left: 60px;
+	margin-top: 70px;
+	height: auto;
+	border-width: 1px;
+	border-style: solid;
+	border-radius: 5px;
+	border-color:#8B8682;
+		
+}
+.titleStorieUser{
+	
+	color: #00868B;
+	padding-left: 30px;
+	padding-top: 30px;
+	font-family:Coronetscript, cursive;
+	font-size: 18px;
+		
+}
+.listUserImage{
+	
+	float: left;	
+	width: 250px;
+	height: 180px;
+	padding: 10px;
+	padding-left: 30px;
+	
+}
+.optionStorieUser{
+	
+	list-style: none;
+	padding-top: 35px;
+	padding-left: 30px; 
+}
+.optionStorieUser li{
+	
+	padding-bottom: 15px;
+	font-size: 20px;
+	text-decoration: none;
+	
+}
+.optionStorieUser a{
+	
+	text-decoration: none;
+	color: rgba(0,139,139,0.8);
+	
+}
+.newChapter{
+	
+	padding: 5px;
+	text-align: center;
+	font-size: 40px;
+	font-weight: bold;	
+	font-family: Florence, cursive;
+	color: #363636;
+		
+}
+#formChapter{
+	
+	padding-left: 90px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+		
+}
+#formChapter input{
+	
+	padding: 8px;
+	border-radius: 2px;
+	margin: 5px;	
+	font-size: 14px;
+	resize: none;
+	
+}
+iframe{
+	
+	width: 90%;
+	
+}
+#formChapter select{
+	
+	padding: 4px;
+	font-size: 16px;
+	
+}
+#newChapterSubmit{
+	
+	border: none;
+	background-color: #00868B;
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 16px; 
+	width: 92%;
+	
+}
+.writeHere{
+	
+	padding-top: 20px;
+	padding-bottom: 40px;
+	
+}
+#editor{
+	
+	width: 90%;
+	padding: 8px;
+	height: 550px;
+	margin-left: 4px;
+	font-family: "Arial",Times, sans-serif;
+	
+}
+.buttons{
+	
+	width: 152px;	
+	color: white;
+	background-color:#00868B;
+	font-weight: bold;
+	font-size: 16px; 
+	
+}
+.chapterTitle{
+	
+	width: 90%;
+	
+}
+#hiddenImageForm{
+	
+	position: fixed;		
+	left: 9000px;
+	top: 40%;
+	background-color: white;
+	padding: 60px;
+	width: 62%;
+	border: 3px solid #363640;
+	border-radius: 4px;
+}
+#hiddenImageForm label{
+	
+	font-size: 30px;
+	color: #00868B;
+	
+}
+#hiddenImageForm input[type = submit]{
+	
+	font-size: 20px;
+	padding: 5px;
+	color: #00868B;
+	
+}
+#hiddenImageForm input[type = button]{
+	
+	font-size: 20px;
+	padding: 5px;
+	color: #00868B;
+	
+}
+#hiddenMusicForm{
+	
+	position: fixed;		
+	left: 9000px;
+	top: 40%;
+	background-color: white;
+	padding: 60px;
+	width: 62%;
+	border: 3px solid #363640;
+	border-radius: 4px;
+}
+#hiddenMusicForm label{
+	
+	font-size: 30px;
+	color: #00868B;
+	
+}
+#hiddenMusicForm input[type = submit]{
+	
+	font-size: 20px;
+	padding: 5px;
+	color: #00868B;
+	
+}
+#hiddenMusicForm input[type = button]{
+	
+	font-size: 20px;
+	padding: 5px;
+	color: #00868B;
+	
+}
+.maxSize{
+
+	max-width:800px;
+    max-height:600px;
+    width: auto;
+    height: auto;
+
+}
+#titleOfStoriePage{
+
+	width: 100%;
+	padding-top: 40px;
+	text-align: center;
+	font-family: Florence, cursive;
+	color: #363636;
+	font-size: 49px;
+
+}
+#chaptersTitle{
+
+	padding: 100px;
+	height: auto;
+	margin-bottom: auto;
+	background-color: white;
+
+}
+#chaptersTitle a{
+
+	text-decoration: none;
+	color: rgba(0,139,139,0.8);
+
+} 
+#chaptersTitle p{
+
+	clear: both;
+	font-size: 26px;
+	font-family: Florence, cursive;
+
+}
+#chaptersTitle li{
+
+	list-style-type: none;
+
+}
+#miniContent{
+
+	padding: 20px;
+	margin-left: 40px;
+	margin-right: 20px;
+	width: auto;
+	color: #595959;
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 17px;
+
+}
+#miniContent h3{
+
+	text-align: center;
+	font-size: 34px;
+	font-family: Florence, cursive;
+	font-weight: bold;
+	margin: 10px;
+	padding-bottom: 40px;
+	color: #363636;
+
+}
+#about{
+
+	width: 90%;
+	height: auto;
+	margin-bottom: 20px;
+	padding-left: 10px;
+
+
+}
